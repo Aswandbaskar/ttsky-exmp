@@ -3,7 +3,7 @@ project:
   title:        "ALU 8BIT"      # Project title
   author:       "ASWAND B"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "ALLU WILL SLEECT THE OPERATION BASED ON SELECT LINE "      # One line description of what your project does
+  description:  ""      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc...
   clock_hz:     5000000       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -20,9 +20,9 @@ project:
     - "tt_um_alu7b.v"
     - "serial_alu_ctrl.v"
     - "alu_7b.v"
-
+pinout:
   # Dedicated inputs
-  pinout:
+  
   ui[0]: "Bit_in — Serial data input (LSB first: 7 bits operand A, then 7 bits operand B)"
   ui[1]: "op[0] — Opcode bit 0 (LSB) — stable parallel input throughout operation"
   ui[2]: "op[1] — Opcode bit 1"
