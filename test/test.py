@@ -21,7 +21,6 @@ async def test_project(dut):
     dut.uio_in.value = 0
     dut.rst_n.value = 0
     await ClockCycles(dut.clk, 10)
-    assert True
     dut.rst_n.value = 1
 
     dut._log.info("Test project behavior")
