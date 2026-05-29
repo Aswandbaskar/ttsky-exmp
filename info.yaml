@@ -22,6 +22,7 @@ project:
     - "alu_7b.v"
 
   # Dedicated inputs
+  pinout:
   ui[0]: "Bit_in — Serial data input (LSB first: 7 bits operand A, then 7 bits operand B)"
   ui[1]: "op[0] — Opcode bit 0 (LSB) — stable parallel input throughout operation"
   ui[2]: "op[1] — Opcode bit 1"
