@@ -9,12 +9,13 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The ALU (Arithmetic Logic Unit) performs arithmetic and logical operations based on the select/control input. It takes two input operands and produces an output result. Operations such as addition, subtraction, AND, OR, and XOR are selected using the control signals.
 
 ## How to test
 
-Explain how to use your project
+Simulate the Verilog design using a testbench in tools like ModelSim or Vivado. Apply different input values and control signals, then verify that the output matches the expected ALU operation.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+No external hardware is required.
+(Optional: FPGA board can be used for hardware implementation and testing.)
