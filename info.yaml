@@ -9,7 +9,7 @@ project:
     operand B per clock edge (14 rising edges total). The opcode op[2:0] is
     a stable parallel input on ui_in[3:1]. Done signal on uio[0] pulses high
     for exactly one clock cycle to indicate end of operation.      # One line description of what your project does
-  language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc.
+  language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     5000000       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
