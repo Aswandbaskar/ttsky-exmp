@@ -28,10 +28,14 @@ jobs:
           cd test
           make clean
           make
-          echo "FILES GENERATED"
-          ls -lah
-          test -f results.xml
           # make will return success even if the test fails, so check for failure in the results.xml
+          
+
+          echo "Files generated."
+          ls -lah
+
+          test -f results.xml
+
           ! grep failure results.xml
 
       - name: Test Summary
