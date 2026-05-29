@@ -34,6 +34,10 @@ jobs:
           echo "Files generated."
           ls -lsh
 
+          test -f results.xml
+
+          ! grep failure results.xml
+
       - name: Test Summary
         uses: test-summary/action@v2.4
         with:
