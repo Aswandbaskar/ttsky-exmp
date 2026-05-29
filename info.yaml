@@ -29,10 +29,7 @@ pinout:
   ui[1]: "op[0] — Opcode bit 0 (LSB) — stable parallel input throughout operation"
   ui[2]: "op[1] — Opcode bit 1"
   ui[3]: "op[2] — Opcode bit 2 (MSB)"
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+ 
 
   # Dedicated outputs
   uo[0]: "Data_out[0] — Result bit 0 (LSB)"
@@ -46,13 +43,7 @@ pinout:
 
    # Bidirectional pins
   uio[0]: "Done — One-cycle high pulse (1 CLK) indicating operation result is valid"
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
-  uio[6]: ""
-  uio[7]: ""
+
 
 # Do not change!
 yaml_version: 6
